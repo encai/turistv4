@@ -96,7 +96,7 @@
         <ownedAttributesInternal>
           <property
             Id="7caa902f-1054-499c-9d54-f3ea9d39b6a9"
-            name="Name"
+            name="Res_Name"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -107,7 +107,7 @@
             isComposite="false" />
           <property
             Id="9a9672fb-ed29-4566-bade-4a41a4a17365"
-            name="Contact_phone"
+            name="Res_phone"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -118,7 +118,7 @@
             isComposite="false" />
           <property
             Id="21c15826-7ecf-4cfc-8092-b7bc14485728"
-            name="Contact_mail"
+            name="Res_mail"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -129,7 +129,7 @@
             isComposite="false" />
           <property
             Id="cf1f1bb9-5bdc-4385-a024-d157be13e142"
-            name="Openhours_weekdays"
+            name="Res_Openhours_weekend"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -137,10 +137,17 @@
             isDerived="false"
             isDerivedUnion="false"
             aggregation="None"
-            isComposite="false" />
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="c06424b6-ec1c-43dc-bfb7-728306c6e145"
+                LastKnownName="string"
+                LastKnownLocation="ModelingProject.uml" />
+            </type_NamedElement>
+          </property>
           <property
             Id="08f37c05-5e86-4f99-8f22-80bc3cb6e647"
-            name="Openhours_weekend"
+            name="Res_openhours_weekdays"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -148,10 +155,17 @@
             isDerived="false"
             isDerivedUnion="false"
             aggregation="None"
-            isComposite="false" />
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="c06424b6-ec1c-43dc-bfb7-728306c6e145"
+                LastKnownName="string"
+                LastKnownLocation="ModelingProject.uml" />
+            </type_NamedElement>
+          </property>
           <property
             Id="cf77c639-2937-43d2-ba3a-2f2d2af2baef"
-            name="Image"
+            name="Res_Image"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -162,7 +176,7 @@
             isComposite="false" />
           <property
             Id="a7e75fa2-3c92-4ea5-a812-bc3d66d42698"
-            name="address"
+            name="Res_address"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -349,7 +363,7 @@
         <ownedAttributesInternal>
           <property
             Id="20dd6f23-8bb2-460a-8fbf-eb9864062ac7"
-            name="Rating"
+            name="com_rating"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -360,7 +374,7 @@
             isComposite="false" />
           <property
             Id="1f49da93-cd55-48be-afaf-08ce4b01111f"
-            name="Comment"
+            name="Com_text"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -412,6 +426,11 @@
             isComposite="false" />
         </ownedAttributesInternal>
       </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="c06424b6-ec1c-43dc-bfb7-728306c6e145"
+        name="string" />
     </packageHasNamedElement>
   </packagedElements>
   <primitiveType
