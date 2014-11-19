@@ -19,9 +19,6 @@
       <class Id="0b2d0cab-09e8-4e52-9422-d78f85e2aa32" name="Restaurant" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="fec979d5-9980-4e20-802b-0067fd1e1b9c" />
         <ownedAttributesInternal>
-          <property Id="d950da2a-73b2-4f70-9511-f75f4e616fa8" name="Category" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="dcc7560d-5757-449d-a9c5-74333b298c18" />
-          </property>
           <property Id="901bc8ad-3717-4098-a33c-ad4cfc9377ff" name="Name" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="7caa902f-1054-499c-9d54-f3ea9d39b6a9" />
           </property>
@@ -36,6 +33,12 @@
           </property>
           <property Id="37de0af2-909a-4990-9470-19742a7c0627" name="Openhours_weekend" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="08f37c05-5e86-4f99-8f22-80bc3cb6e647" />
+          </property>
+          <property Id="5d87da6d-5df1-45d8-b6d2-69867ed05d39" name="Image" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="cf77c639-2937-43d2-ba3a-2f2d2af2baef" />
+          </property>
+          <property Id="76219f38-74fa-4a85-b1bb-acba8faf287b" name="address" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="a7e75fa2-3c92-4ea5-a812-bc3d66d42698" />
           </property>
         </ownedAttributesInternal>
       </class>
@@ -53,6 +56,9 @@
           <property Id="c925261f-9f59-4421-a373-a7a326753ec8" name="Menu_info" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="b637ac6e-11ce-432d-a59e-f8fe8b2483c1" />
           </property>
+          <property Id="066d5d2f-3977-4cc9-8d82-bdaec62f2a6d" name="Menu_image" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="8d8bb9a4-06eb-447f-bf6f-2ff12b6e626c" />
+          </property>
         </ownedAttributesInternal>
       </class>
     </logicalClassDesignerModelHasTypes>
@@ -65,6 +71,19 @@
           </property>
           <property Id="9e321891-3abd-4b36-a121-42e3fc462e2e" name="Comment" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="1f49da93-cd55-48be-afaf-08ce4b01111f" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="e3e11fb3-3505-4686-9e7c-35738dd838dc" name="Category" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="3d56b1d1-6ae2-4e5c-a264-5c69a6a3f211" />
+        <ownedAttributesInternal>
+          <property Id="99c241ed-3293-4471-bf6f-e348435fe7eb" name="Cat_name" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="3ae184ea-cd8a-4f4f-ae51-45f36b45528b" />
+          </property>
+          <property Id="f24ccd84-6ddb-475e-962f-eb33fc10458c" name="Cat_img" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="18797068-1d52-434b-b3c2-fc9e2528a45f" />
           </property>
         </ownedAttributesInternal>
       </class>

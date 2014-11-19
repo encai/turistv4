@@ -27,17 +27,6 @@
         isActiveClass="false">
         <ownedAttributesInternal>
           <property
-            Id="dcc7560d-5757-449d-a9c5-74333b298c18"
-            name="Category"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
             Id="7caa902f-1054-499c-9d54-f3ea9d39b6a9"
             name="Name"
             isLeaf="false"
@@ -92,6 +81,28 @@
             isDerivedUnion="false"
             aggregation="None"
             isComposite="false" />
+          <property
+            Id="cf77c639-2937-43d2-ba3a-2f2d2af2baef"
+            name="Image"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="a7e75fa2-3c92-4ea5-a812-bc3d66d42698"
+            name="address"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
         </ownedAttributesInternal>
       </class>
     </packageHasNamedElement>
@@ -128,6 +139,17 @@
           <property
             Id="b637ac6e-11ce-432d-a59e-f8fe8b2483c1"
             name="Menu_info"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="8d8bb9a4-06eb-447f-bf6f-2ff12b6e626c"
+            name="Menu_image"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -179,6 +201,39 @@
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="3d56b1d1-6ae2-4e5c-a264-5c69a6a3f211"
+        name="Category"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="3ae184ea-cd8a-4f4f-ae51-45f36b45528b"
+            name="Cat_name"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="18797068-1d52-434b-b3c2-fc9e2528a45f"
+            name="Cat_img"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
     </packageHasNamedElement>
   </packagedElements>
   <primitiveType
